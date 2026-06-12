@@ -132,14 +132,8 @@ function renderHome() {
 
   app.innerHTML = [
     '<section class="hero">',
-    '  <div class="hero-fallback-bg"></div>',
-    '  <video class="hero-video" autoplay muted loop playsinline poster="">',
-    '    <source src="video/hero.mp4" type="video/mp4">',
-    '  </video>',
+    '  <img src="images/header.jpg" class="hero-video" alt="" aria-hidden="true">',
     '  <div class="hero-overlay"></div>',
-    '  <div class="hero-content">',
-    '    <img src="images/logo-black-notext.png" alt="Sicc" class="hero-logo">',
-    '  </div>',
     '</section>',
 
     '<div class="home-content">',

@@ -89,10 +89,22 @@ h1, h2, h3, h4, strong, b, .btn, .menu-link, .section-label, .copy-interlude-tex
   padding: 0 var(--gutter);
   background: var(--bg);
   border-bottom: 1px solid transparent;
+  overflow: visible;
   transition: border-color var(--t) var(--ease), background var(--t) var(--ease);
 }
 #site-nav.scrolled { border-bottom-color: var(--border-light); }
 
+.nav-logo-link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-logo {
+  height: 80px !important;
+  width: auto !important;
+  max-width: none !important;
+  display: block;
+}
 .nav-right {
   display: flex;
   flex-direction: row;
@@ -392,6 +404,7 @@ h1, h2, h3, h4, strong, b, .btn, .menu-link, .section-label, .copy-interlude-tex
   inset: 0;
   width: 100%; height: 100%;
   object-fit: cover;
+  object-position: center;
   filter: grayscale(1) contrast(1.1);
   opacity: 0.85;
 }
@@ -1802,6 +1815,37 @@ img[src*="kolo-pendant-solid-3"] {
   .product-modal-backdrop { align-items: flex-end; }
   .product-modal { height: 95svh; }
   .menu-link { font-size: 36px; }
+}
+
+/* ══════════════════════════════════════════════════════════
+   HOME DARK THEME TEST
+   Remove .home-dark from pages.js renderHome() to revert
+   ══════════════════════════════════════════════════════════ */
+.home-dark {
+  background: #000;
+}
+.home-dark .home-mountain-bg {
+  display: none;
+}
+.home-dark,
+.home-dark p,
+.home-dark h1,
+.home-dark h2,
+.home-dark h3,
+.home-dark .section-label,
+.home-dark .brand-statement p,
+.home-dark .copy-interlude-text p,
+.home-dark .copy-interlude-text strong,
+.home-dark .symbol-entry-name,
+.home-dark .symbol-entry-meaning {
+  color: #fff;
+}
+.home-dark .symbol-divider {
+  filter: invert(1);
+}
+.home-dark .page-deco-item {
+  opacity: 1;
+  mix-blend-mode: screen;
 }
 
 
