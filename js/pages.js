@@ -146,8 +146,10 @@ function renderHome() {
     '  <div class="page-deco" aria-hidden="true">',
     '    <img class="page-deco-item" src="images/deco/pendant-puni.png" alt="" style="left:-220px;top:7%;--r:-8deg">',
     '    <img class="page-deco-item" src="images/deco/trokut.png" alt="" style="left:-90px;top:45%;--r:11deg;--flip:-1;width:304px">',
-    '    <img class="page-deco-item" src="images/deco/kuglice.png" alt="" style="left:-200px;top:82%;--r:7deg;width:608px">',
     '    <img class="page-deco-item" src="images/deco/ogrlica-mreza.png" alt="" style="right:-248px;top:68%;--r:9deg;opacity:1">',
+    '  </div>',
+    '  <div class="page-deco page-deco--overflow" aria-hidden="true">',
+    '    <img class="page-deco-item" src="images/deco/kuglice.png" alt="" style="left:-200px;top:82%;--r:7deg;width:608px">',
     '  </div>',
 
     '  <section class="brand-statement reveal">',
@@ -348,10 +350,24 @@ function renderAbout() {
     '<div class="about-page about-dark">',
 
     '  <div class="page-deco" aria-hidden="true">',
-    '    <img class="page-deco-item" src="images/deco/kuglice.png" alt="" style="left:-232px;top:5%;--r:-10deg">',
-    '    <img class="page-deco-item" src="images/deco/zenski-prsten.png" alt="" style="left:-168px;top:40%;--r:18deg;width:432px">',
-    '    <img class="page-deco-item" src="images/deco/trokut.png" alt="" style="right:-192px;top:12%;--r:8deg;width:608px">',
-    '    <img class="page-deco-item" src="images/deco/ogrlica-mreza.png" alt="" style="right:-168px;top:55%;--r:-7deg">',
+    '    <img class="page-deco-item" src="images/deco/kuglice.png" alt="" style="left:-232px;top:30%;--r:-10deg">',
+    '    <img class="page-deco-item" src="images/deco/zenski-prsten.png" alt="" style="left:-168px;top:58%;--r:18deg;width:432px">',
+    '    <img class="page-deco-item" src="images/deco/trokut.png" alt="" style="right:-192px;top:42%;--r:8deg;width:608px">',
+    '    <img class="page-deco-item" src="images/deco/ogrlica-mreza.png" alt="" style="right:-168px;top:72%;--r:-7deg">',
+    '  </div>',
+
+    '  <div class="about-crosses" aria-hidden="true">',
+    '    <img src="images/symbol-black.png" style="width:180px;top:12%;left:6%;--cr:17deg">',
+    '    <img src="images/symbol-black.png" style="width:90px;top:28%;left:55%;--cr:-33deg">',
+    '    <img src="images/symbol-black.png" style="width:260px;top:41%;left:78%;--cr:8deg">',
+    '    <img src="images/symbol-black.png" style="width:120px;top:55%;left:22%;--cr:-20deg">',
+    '    <img src="images/symbol-black.png" style="width:200px;top:68%;left:42%;--cr:44deg">',
+    '    <img src="images/symbol-black.png" style="width:70px;top:80%;left:8%;--cr:-12deg">',
+    '    <img src="images/symbol-black.png" style="width:150px;top:88%;left:70%;--cr:29deg">',
+    '  </div>',
+
+    '  <div class="sicanje-full">',
+    '    <img src="images/sicanje 1.jpg" alt="">',
     '  </div>',
 
     '  <div class="about-hero">',
@@ -366,10 +382,9 @@ function renderAbout() {
     '      <p>' + escHtml(t('about_s1_p2')) + '</p>',
     '    </div>',
 
-    '    <div class="symbol-divider" style="padding:40px 0">',
-    '      <div class="symbol-divider-line"></div>',
-    '      <img src="images/symbol-black.png" alt="" style="width:32px;opacity:0.2">',
-    '      <div class="symbol-divider-line"></div>',
+    '    <div class="sicanje-pair reveal">',
+    '      <img src="images/sicanje 2.jpg" alt="">',
+    '      <img src="images/sicanje 3.jpg" alt="">',
     '    </div>',
 
     '    <div class="about-section reveal">',
@@ -383,6 +398,10 @@ function renderAbout() {
     '      <p>' + escHtml(t('about_s3_p2')) + '</p>',
     '    </div>',
 
+    '    <div class="sicanje-offset reveal">',
+    '      <img src="images/sicanje 4.jpg" alt="">',
+    '    </div>',
+
     '    <div class="about-section reveal">',
     '      <h2>' + escHtml(t('about_s4_h2')) + '</h2>',
     '      <p>' + escHtml(t('about_s4_p1')) + '</p>',
@@ -393,6 +412,10 @@ function renderAbout() {
     '      <h2>' + escHtml(t('about_s5_h2')) + '</h2>',
     '      <p>' + escHtml(t('about_s5_p1')) + '</p>',
     '      <p>' + escHtml(t('about_s5_p2')) + '</p>',
+    '    </div>',
+
+    '    <div class="sicanje-full reveal">',
+    '      <img src="images/sicanje 5.jpg" alt="">',
     '    </div>',
 
     '    <div class="symbols-glossary reveal">',
