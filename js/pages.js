@@ -136,7 +136,7 @@ function renderHome() {
     '  <div class="hero-overlay"></div>',
     '</section>',
 
-    '<div class="home-content">',
+    '<div class="home-content home-dark">',
 
     '  <img src="images/mountain-bg.png" class="home-mountain-bg" aria-hidden="true" alt="">',
 
@@ -345,7 +345,7 @@ function renderAbout() {
   }).join('');
 
   app.innerHTML = [
-    '<div class="about-page">',
+    '<div class="about-page about-dark">',
 
     '  <div class="page-deco" aria-hidden="true">',
     '    <img class="page-deco-item" src="images/deco/kuglice.png" alt="" style="left:-232px;top:5%;--r:-10deg">',

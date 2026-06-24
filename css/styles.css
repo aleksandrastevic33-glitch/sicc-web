@@ -48,6 +48,7 @@ body {
   color: var(--text);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  text-transform: lowercase;
   overflow-x: hidden;
 }
 img, video { display: block; max-width: 100%; }
@@ -59,6 +60,7 @@ p { font-size: 18px; line-height: 1.8; margin-bottom: 0; }
 
 h1, h2, h3, h4, strong, b, .btn, .menu-link, .section-label, .copy-interlude-text strong, .product-tile-name, .cart-item-name, .product-details h1, .shop-header h1, .about-hero h1, .symbols-glossary h2, .contact-inner h1, .checkout-inner h1, .not-found-page h1, .not-found-content h2 {
   font-family: var(--display-font);
+  text-transform: none;
 }
 
 /* ── Utility ─────────────────────────────────────────────── */
@@ -203,7 +205,7 @@ h1, h2, h3, h4, strong, b, .btn, .menu-link, .section-label, .copy-interlude-tex
   display: block;
   font-size: clamp(44px, 8vw, 96px);
   font-weight: 900;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
   color: var(--menu-text);
   line-height: 1;
   letter-spacing: 0.03em;
@@ -1815,13 +1817,14 @@ img[src*="kolo-pendant-solid-3"] {
   .product-modal-backdrop { align-items: flex-end; }
   .product-modal { height: 95svh; }
   .menu-link { font-size: 36px; }
+  .brand-statement p:first-child { letter-spacing: -0.01em; }
 }
 
 /* ══════════════════════════════════════════════════════════
-   HOME DARK THEME TEST
-   Remove .home-dark from pages.js renderHome() to revert
+   DARK THEME — home + about pages
    ══════════════════════════════════════════════════════════ */
-.home-dark {
+.home-dark,
+.about-dark {
   background: #000;
 }
 .home-dark .home-mountain-bg {
@@ -1837,15 +1840,33 @@ img[src*="kolo-pendant-solid-3"] {
 .home-dark .copy-interlude-text p,
 .home-dark .copy-interlude-text strong,
 .home-dark .symbol-entry-name,
-.home-dark .symbol-entry-meaning {
+.home-dark .symbol-entry-meaning,
+.about-dark,
+.about-dark p,
+.about-dark h1,
+.about-dark h2,
+.about-dark h3,
+.about-dark .section-label,
+.about-dark .symbol-entry-name,
+.about-dark .symbol-entry-meaning,
+.about-dark .about-hero h1,
+.about-dark .symbols-glossary h2 {
   color: #fff;
 }
-.home-dark .symbol-divider {
+.home-dark .symbol-divider,
+.about-dark .symbol-divider {
   filter: invert(1);
 }
-.home-dark .page-deco-item {
+.home-dark .page-deco-item,
+.about-dark .page-deco-item {
   opacity: 1;
   mix-blend-mode: screen;
+}
+.about-dark .symbol-table {
+  border-color: #333;
+}
+.about-dark .symbol-row {
+  border-bottom-color: #333;
 }
 
 
