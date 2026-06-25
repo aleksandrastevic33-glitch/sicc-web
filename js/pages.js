@@ -142,11 +142,11 @@ function renderHome() {
 
     '  <div class="page-deco page-deco--back" aria-hidden="true">',
     '    <img class="page-deco-item" src="images/deco/pendant-prazni.png" alt="" style="right:-220px;top:16%;--r:7deg;--flip:-1">',
+    '    <img class="page-deco-item" src="images/deco/pendant-puni.png" alt="" style="left:-220px;top:7%;--r:-8deg">',
     '  </div>',
     '  <div class="page-deco" aria-hidden="true">',
-    '    <img class="page-deco-item" src="images/deco/pendant-puni.png" alt="" style="left:-220px;top:7%;--r:-8deg">',
     '    <img class="page-deco-item" src="images/deco/trokut.png" alt="" style="left:-90px;top:45%;--r:11deg;--flip:-1;width:304px">',
-    '    <img class="page-deco-item" src="images/deco/ogrlica-mreza.png" alt="" style="right:-248px;top:68%;--r:9deg;opacity:1">',
+    '    <img class="page-deco-item" src="images/deco/ogrlica-mreza.png" alt="" style="right:-248px;top:58%;--r:9deg;opacity:1">',
     '  </div>',
     '  <div class="page-deco page-deco--overflow" aria-hidden="true">',
     '    <img class="page-deco-item" src="images/deco/kuglice.png" alt="" style="left:-200px;top:82%;--r:7deg;width:608px">',
