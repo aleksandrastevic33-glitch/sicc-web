@@ -402,6 +402,13 @@ h1, h2, h3, h4, strong, b, .btn, .menu-link, .section-label, .copy-interlude-tex
   justify-content: center;
 }
 
+.hero-video--mobile { display: none; }
+.hero-video--desktop { display: block; }
+@media (max-width: 1024px) {
+  .hero-video--desktop { display: none; }
+  .hero-video--mobile { display: block; }
+}
+
 .hero-video {
   position: absolute;
   inset: 0;
