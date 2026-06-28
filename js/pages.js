@@ -132,7 +132,7 @@ function renderHome() {
 
   app.innerHTML = [
     '<section class="hero">',
-    '  <img src="images/header.jpg" class="hero-video" alt="" aria-hidden="true">',
+    '  <video class="hero-video" autoplay muted loop playsinline aria-hidden="true"><source src="images/hero.mp4?v=12" type="video/mp4"></video>',
     '  <div class="hero-overlay"></div>',
     '</section>',
 
