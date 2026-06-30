@@ -44,7 +44,7 @@ html { font-size: 16px; scroll-behavior: smooth; }
 body {
   font-family: var(--font);
   font-weight: 400;
-  background: #000;
+  background: var(--bg);
   color: var(--text);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
